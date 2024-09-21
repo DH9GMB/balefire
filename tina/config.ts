@@ -31,13 +31,19 @@ export default defineConfig({
       {
         name: "post",
         label: "Posts",
-        path: "content/posts",
+        path: "/src/content/posts",
         fields: [
           {
             type: "string",
             name: "title",
             label: "Title",
             isTitle: true,
+            required: true,
+          },
+          {
+            type: "datetime",
+            name: "posted",
+            label: "Date Posted",
             required: true,
           },
           {
