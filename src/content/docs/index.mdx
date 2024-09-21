@@ -1,36 +1,54 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Your guide to the Internet censorship detection
+description: Learn how to detect Internet censorship in your country.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Get to know your enemy, fight for your freedom
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
+    - text: Knowledge base
       link: /guides/example/
-      icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+      icon: right-caret
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, LinkCard, CardGrid } from "@astrojs/starlight/components";
 
-## Next steps
+## Methods:
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+<CardGrid>
+  <LinkCard title="DNS hijacking" href="/guides/dns-hijacking" />
+  <LinkCard title="IP blackhole/redirection" href="/guides/ip-blackhole" />
+  <LinkCard
+    title="HTTPS domain name (SNI) filtering"
+    href="/guides/sni-filtering"
+  />
+  <LinkCard title="Throttling" href="/guides/throttling" />
+  <LinkCard
+    title="DPI protocol filtering"
+    href="/guides/dpi-protocol-filtering"
+  />
+  <LinkCard
+    title="DPI application filtering"
+    href="/guides/dpi-application-filtering"
+  />
+  <LinkCard title="DPI (other)" href="/guides/dpi-other" />
+</CardGrid>
+
+## Filtering hardware location:
+
+<CardGrid>
+  <LinkCard title="ISP Inner filtering" href="/guides/isp-inner-filtering" />
+  <LinkCard
+    title="ISP Incoming traffic filtering"
+    href="/guides/isp-incoming-traffic-filtering"
+  />
+  <LinkCard
+    title="Transit (upstream) ISP filtering"
+    href="/guides/transit-isp-filtering"
+  />
+  <LinkCard
+    title="State Level Incoming traffic filtering"
+    href="/guides/state-level-incoming-traffic-filtering"
+  />
 </CardGrid>
