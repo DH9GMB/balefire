@@ -10,6 +10,16 @@ export default defineConfig({
       social: {
         github: "https://github.com/DH9GMB/balefire",
       },
+      defaultLocale: "root",
+      locales: {
+        root: {
+          label: "English",
+          lang: "en", // lang is required for root locales
+        },
+        "ru-RU": {
+          label: "Русский",
+        },
+      },
       sidebar: [
         {
           label: "Guides",
