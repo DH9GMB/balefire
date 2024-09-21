@@ -28,6 +28,35 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             { label: "Example Guide", slug: "guides/example" },
+            { label: "DNS Hijacking", slug: "guides/dns-hijacking" },
+            { label: "IP Blackhole", slug: "guides/ip-blackhole" },
+            { label: "SNI Filtering", slug: "guides/sni-filtering" },
+            { label: "Throttling", slug: "guides/throttling" },
+            {
+              label: "DPI Protocol Filtering",
+              slug: "guides/dpi-protocol-filtering",
+            },
+            {
+              label: "DPI Application Filtering",
+              slug: "guides/dpi-application-filtering",
+            },
+            { label: "DPI Other", slug: "guides/dpi-other" },
+            {
+              label: "ISP Inner Filtering",
+              slug: "guides/isp-inner-filtering",
+            },
+            {
+              label: "ISP Incoming Traffic Filtering",
+              slug: "guides/isp-incoming-traffic-filtering",
+            },
+            {
+              label: "Transit ISP Filtering",
+              slug: "guides/transit-isp-filtering",
+            },
+            {
+              label: "State Level Incoming Traffic Filtering",
+              slug: "guides/state-level-incoming-traffic-filtering",
+            },
           ],
         },
         {
