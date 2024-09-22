@@ -3,8 +3,6 @@ title: OutlineSDK
 description: Software for measuring censorship
 posted: 2024-09-21T21:00:00.000Z
 ---
-
-## OutlineSDK
 ### Overview
 Reusable, composable and cross-platform components to empower your app against censorship
 

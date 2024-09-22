@@ -3,8 +3,6 @@ title: Shutdown Watch
 description: 'Test website, web service, domain name or IP address.'
 posted: 2024-09-21T21:00:00.000Z
 ---
-
-## Shutdown Watch
 ### Overview
 
 [Learn more](https://shutdown.activaterights.org/)
