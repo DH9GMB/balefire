@@ -19,7 +19,7 @@ General manual steps are as follows:
  - Look for DNS requests in the traffic dump, HTTP and TLS ClientHello packets
  - Open the traffic dump in Wireshark, look for difference in requests from different software
  - One of the typical flag for the block is that TCP flows from filtered software are hang or tore down after the exact filtered packet, while the flows from other applications are not.
- - When the filtered packet is detected, you may want to replay it to ensure that you’ve found the correct one. This could be done manually with the help of the tools such as nping, or with the aid of TraceViz (https://github.com/wikicensorship/tracevis)
+ - When the filtered packet is detected, you may want to replay it to ensure that you’ve found the correct one. This could be done manually with the help of the tools such as nping, or with the aid of [TraceVis](https://github.com/wikicensorship/tracevis)
  - If you want to go further and detect exact pattern triggering the block, replace random parts of the packet with 00 or FF, and replay the packet to the net.
 
 Circumvention solutions:
