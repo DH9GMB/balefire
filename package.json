@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "tina": "TINA_PUBLIC_IS_LOCAL=false concurrently \"tinacms dev\" \"tsc --watch\" \"nodemon dist/app.js\" \"nodemon --watch site eleventy --input='site'\""
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",
