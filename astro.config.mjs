@@ -6,7 +6,15 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "Balefire",
+      logo: {
+        src: "./src/assets/logo.svg",
+        replacesTitle: true,
+      },
+      customCss: [
+        // Relative path to your custom CSS file
+        "./src/styles/custom.css",
+      ],
       social: {
         github: "https://github.com/withastro/starlight",
       },
