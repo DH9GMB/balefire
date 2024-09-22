@@ -7,3 +7,53 @@ hero:
   image:
     file: ../../assets/fire.webp
 ---
+
+import { LinkCard, CardGrid } from "@astrojs/starlight/components";
+
+<CardGrid>
+  <LinkCard
+    title="DNS Hijacking"
+    href="blocking/dns-hijacking/"
+    description="Redirects DNS queries to incorrect IP addresses"
+  />
+  <LinkCard
+    title="DPI Protocol Filtering"
+    href="blocking/dpi-protocol-filtering/"
+    description="Blocks specific protocols using Deep Packet Inspection"
+  />
+  <LinkCard
+    title="DPI Application Filtering"
+    href="blocking/dpi-application-filtering/"
+    description="Blocks certain applications by analyzing traffic patterns"
+  />
+  <LinkCard
+    title="HTTPS SNI Filtering"
+    href="blocking/dpi-protocol-filtering/"
+    description="Blocks domains based on the SNI in TLS handshakes"
+  />
+  <LinkCard
+    title="IP Blackhole/Redirection"
+    href="blocking/ip-blackhole/"
+    description="Blocks traffic to specific IPs, making them unreachable"
+  />
+  <LinkCard
+    title="ISP Inner Filtering"
+    href="blocking/isp-inner-filtering/"
+    description="Filters content within the ISP network itself"
+  />
+  <LinkCard
+    title="State-Level Filtering"
+    href="blocking/state-level-filtering/"
+    description="Government filters traffic at a national level"
+  />
+  <LinkCard
+    title="Throttling"
+    href="blocking/throttling/"
+    description="Intentionally slows down internet speeds"
+  />
+  <LinkCard
+    title="Transit ISP Filtering"
+    href="blocking/transit-isp-filtering/"
+    description="Filters traffic at upstream providers, affecting multiple ISPs"
+  />
+</CardGrid>
