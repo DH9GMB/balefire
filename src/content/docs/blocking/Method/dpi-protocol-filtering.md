@@ -3,8 +3,6 @@ title: DPI Protocol Filtering
 description: 'Learn About DPI Protocol Filtering.'
 posted: 2024-09-21T21:00:00.000Z
 ---
-
-## DPI Protocol Filtering
 ### Deep Packet Inspection (DPI) Protocol Filtering in Internet Censorship
 
 **Deep Packet Inspection (DPI)** is a sophisticated network packet filtering method used to **inspect, analyze, and manage data** as it passes through an inspection point.

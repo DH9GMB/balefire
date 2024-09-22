@@ -3,9 +3,6 @@ title: DNS Hijacking
 description: 'Learn About DNS Hijacking.'
 posted: 2024-09-21T21:00:00.000Z
 ---
-
-## DNS Hijacking
-
 DNS spoofing is one of the simple and affordable methods of restricting website access which is easy to circumvent.
 The IP address of the website is intentionally replaced with a different one by ISP, to prevent the user from connecting to the real address and accessing the website.
 
@@ -23,13 +20,13 @@ DNS spoofing is a subtype of DNS hijacking, in which ISP applies hijacking to an
 
 This type of block could be detected by many censorship checking software and services, such as:
 >
- - GlobalCheck
- - RIPE Atlas
- - OONI Probe
+ - [GlobalCheck](/balefire/censorship/services/globalcheck/)
+ - [RIPE Atlas]()
+ - [OONI Probe]()
 
 As well as manually:
 >
- - Go to https://dns.google/
+ - Go to [Google DNS](https://dns.google/)
  - Type in the domain name of the website you have trouble accessing
  - Open “Command Prompt” (Windows) / Terminal (Linux, macOS)
  - Type “nslookup domain.name.of.the.website.com”

@@ -3,9 +3,6 @@ title: State-Level Filtering
 description: 'Learn About State-Level Filtering.'
 posted: 2024-09-21T21:00:00.000Z
 ---
-
-## State-Level Filtering
-
 **State-Level Filtering** is the practice where a government or state enforces restrictions on internet content accessible within its borders.
 
 ### Key Points:

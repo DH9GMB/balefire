@@ -3,9 +3,6 @@ title: Transit ISP Filtering
 description: 'Learn About Transit ISP Filtering.'
 posted: 2024-09-21T21:00:00.000Z
 ---
-
-## Transit ISP Filtering 
-
 **Transit ISP Filtering** refers to the practice of intermediate ISPs (those that carry data across different networks) monitoring and controlling the flow of internet traffic passing through their infrastructure.
 
 ### Key Points:
