@@ -4,7 +4,7 @@ description: 'Test website, web service, domain name or IP address.'
 posted: 2024-09-21T21:00:00.000Z
 ---
 ### Overview
-Ping-Admin is a website and server monitoring service for administrators, with additional function to check the website from different >
+Ping-Admin is a website and server monitoring service for administrators, with additional function to check the website from different parts of the world.
 The service has a wide variety of nodes in many regions in Russia and CIS countries.
 
 [Learn more](https://ping-admin.com/free_test/)

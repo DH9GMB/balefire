@@ -4,7 +4,7 @@ description: 'Test website, web service, domain name or IP address.'
 posted: 2024-09-21T21:00:00.000Z
 ---
 ### Overview  
-Network test utilities focused on testing web services from within China. The service provides 10 probes located in different China reg>
+Network test utilities focused on testing web services from within China. The service provides 10 probes located in different China regions and datacenters.
 
 [Learn more](https://ping.pe)
 

@@ -4,8 +4,8 @@ description: 'Test website, web service, domain name or IP address.'
 posted: 2024-09-21T21:00:00.000Z
 ---
 ### Overview
-RIPE Atlas is an Internet measurement network that provides live and historical information about the connectivity of networks around t>
-To use it, you need to set up your own RIPE Atlas probe for everyone, which will give you points. These points you can spend on tests u>
+RIPE Atlas is an Internet measurement network that provides live and historical information about the connectivity of networks around the world. RIPE runs the globally distributed network to collect data on Internet infrastructure, usage and development.
+To use it, you need to set up your own RIPE Atlas probe for everyone, which will give you points. These points you can spend on tests using all other probes.
 
 [Learn more](https://atlas.ripe.net/)
 
