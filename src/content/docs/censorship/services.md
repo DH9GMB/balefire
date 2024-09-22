@@ -19,7 +19,7 @@ Probe locations:
 >
  - Russia
 
-Action type: One-shot check, aggregated data provider
+Action type: One-shot check, Aggregated Data Provider
 
 Probing methods:
 >
@@ -145,4 +145,113 @@ Useful for:
  - Testing DNS spoofing
 
 Skill required: Available for everyone
+
 Price: Free
+
+## RIPE Atlas
+### Overview
+RIPE Atlas is an Internet measurement network that provides live and historical information about the connectivity of networks around the world. RIPE runs the globally distributed network to collect data on Internet infrastructure, usage and development.
+To use it, you need to set up your own RIPE Atlas probe for everyone, which will give you points. These points you can spend on tests using all other probes.
+
+[Learn more](https://atlas.ripe.net/)
+
+### Details
+Type: Service
+
+Probe location:
+>
+ - Russia
+ - Ukraine
+ - Iran
+ - Saudi Arabia
+ - China
+
+Action type: One-shot check, Aggregated Data Provider
+
+Probing methods:
+>
+ - HTTP reachability test (any port)
+ - HTTPS reachability test (any port)
+ - TCP open port check (any port)
+ - ICMP Ping
+ - DNS resolution
+ - Traceroute
+
+Testing on: Datacenter connections, Residential connections
+
+Useful for:
+>
+ - Testing websites and web services
+ - Testing IP-level censorship
+ - Testing DNS spoofing
+
+Skill required: Some technical knowledge required
+
+Price: Free, but requires points
+
+## IODA
+### Overview
+IODA is an operational prototype system that monitors the Internet, in near-realtime, with the goal of identifying macroscopic Internet outages affecting the edge of the network, i.e., significantly impacting an AS or a large fraction of a country.
+
+[Learn more](https://ioda.inetintel.cc.gatech.edu/)
+
+### Details
+Type: Service
+
+Probe location:
+>
+ - Russia
+ - Ukraine
+ - Iran
+ - Saudi Arabia
+ - China
+
+Action type: One-shot check, Aggregated Data Provider
+
+Probing methods:
+>
+ - Global Internet routing (BGP)
+ - Internet Background Radiation
+ - ICMP Ping
+
+Testing on: Datacenter connections, Residential connection
+
+Useful for:
+>
+ - Websites and web services accessibility monitoring
+ - Outages of ASNs/ISPs
+
+Skill required: Available for everyone
+
+Price: Free
+
+## Shutdown Watch
+### Overview
+
+[Learn more](https://shutdown.activaterights.org/)
+
+### Details
+Type: Service
+
+Probe location:
+>
+ - Bangladesh
+
+Action type: Aggregated Data Provider
+
+Probing methods
+>
+ - Community Data Collection (News)
+
+
+Testing on: Datacenter connections, Residential connection
+
+Useful for:
+>
+ - Websites and web services accessibility monitoring
+ - Outages of ASNs/ISPs
+
+Skill required: Available for everyone
+
+Price: Free
+
