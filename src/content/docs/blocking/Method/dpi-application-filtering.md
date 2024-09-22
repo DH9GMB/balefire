@@ -9,7 +9,7 @@ This kind of block is difficult to detect and analyze. There’s no fully automa
 
 Selected application filtering test is supported in:
 >
- - OONI Probe
+ - [OONI Probe](/balefire/censorship/toolkits/ooni/)
 
 General manual steps are as follows:
 >

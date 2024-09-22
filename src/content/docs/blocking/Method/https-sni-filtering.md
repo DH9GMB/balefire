@@ -15,8 +15,8 @@ Typical errors you may encounter in a browser in case of SNI filtering:
  - (sometimes) HTTPS certificate error
 
 This type of block could be detected by some of censorship checking software (see SOFTWARE TOOLKITS), such as:
- - OONI Probe
- - RIPE Atlas with 2 measurements: one with the original domain name and another one with the different, connecting the the same IP address
+ - [OONI Probe](/balefire/censorship/toolkits/ooni/)
+ - [RIPE Atlas](/balefire/censorship/services/ripe-atlas/) with 2 measurements: one with the original domain name and another one with the different, connecting the the same IP address
  - blockcheck.sh script from “zapret” application
 
 As well as manually, by connecting to the same website using different domain name in HTTPS request:
