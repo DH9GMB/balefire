@@ -3,7 +3,6 @@ title: Check Host
 description: 'Test website, web service, domain name or IP address.'
 posted: 2024-09-21T21:00:00.000Z
 ---
-## Check-Host
 ### Overview
 Check-host.net provides a wide range of web service availability tests, with the probes hosted in countries with internet censorship.
 

@@ -3,8 +3,6 @@ title: Globalcheck
 description: 'Test website, web service, domain name or IP address.'
 posted: 2024-09-21T21:00:00.000Z
 ---
-
-## Globalcheck
 ### Overview
 GlobalCheck is a service providing on-demand website reachability tests using probes installed in Russia.
 The service is free and does not require an account, just type the domain name to open a website from several Russian locations and Int>

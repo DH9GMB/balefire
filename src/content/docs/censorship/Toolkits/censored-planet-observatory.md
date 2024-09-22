@@ -3,8 +3,6 @@ title: Censored Planet Observatory
 description: Software for measuring censorship
 posted: 2024-09-21T21:00:00.000Z
 ---
-
-## Censored Planet Observatory (analyze-cp)
 ### Overview
 
 analyze-cp is a software toolbox, created by the [Censored Planet team](https://data.censoredplanet.org/), which includes quack-v1, hyperquack-v1 to application-layer interference measuring and satellite-v1 to detect DNS interference.
