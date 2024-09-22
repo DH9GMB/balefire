@@ -3,9 +3,6 @@ title: ISP Incoming Traffic Filtering
 description: 'Learn About ISP Incoming Traffic Filtering.'
 posted: 2024-09-21T21:00:00.000Z
 ---
-
-## ISP Incoming Traffic Filtering 
-
 **ISP Incoming Traffic Filtering** is a technique used by Internet Service Providers to examine and manage data coming into their networks from external sources to block or restrict access to certain content.
 
 ### Key Points:

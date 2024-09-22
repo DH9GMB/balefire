@@ -3,8 +3,6 @@ title: DPI Application Filtering
 description: 'Learn About DPI Application Filtering.'
 posted: 2024-09-21T21:00:00.000Z
 ---
-
-## DPI Application Filtering
 Deep Packet Inspection hardware is capable of detecting distinct particularities of certain software, its network or encryption libraries, and block it. This could lead to website or service access only from the browser but not from the app, or vice versa.
 
 This kind of block is difficult to detect and analyze. There’s no fully automatic utilities for such tests.

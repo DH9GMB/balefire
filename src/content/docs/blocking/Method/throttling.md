@@ -3,8 +3,6 @@ title: Throttling
 description: 'Learn About Throttling.'
 posted: 2024-09-21T21:00:00.000Z
 ---
-
-## Throttling
 The deliberate slowing of internet speed of certain websites and services. If the website is slow to load, or some elements (such as videos or other media) are not working as fast as they should despite sufficient internet speed, this could be the case of throttling.
 
 This type of block could NOT usually be detected by censorship checking software, however general DPI circumvention tools might restore the speed.

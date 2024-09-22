@@ -3,8 +3,6 @@ title: IP Blackhole/Redirection
 description: 'Learn About IP Blackhole/Redirection.'
 posted: 2024-09-21T21:00:00.000Z
 ---
-
-## IP blackhole/redirection
 The IP address of the website is completely blocked by the ISP. Due to the nature of this blocking method, blocking of a single IP address leads to inaccessibility of all the web sites and services hosted on the same IP address. The website is usually trying to load for a very long time (from tens of seconds up to several minutes of blank page) without any progress.
 
 In the end you may receive the following browser error:

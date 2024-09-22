@@ -3,8 +3,6 @@ title: HTTPS SNI Filtering
 description: 'Learn About HTTPS SNI Filtering.'
 posted: 2024-09-21T21:00:00.000Z
 ---
-
-## HTTPS domain name (SNI) filtering
 This type of blocking is designed to limit access to the exact website / web service by its domain name. It is applied using special filtering hardware with Deep Packet Inspection (DPI) functionality, which analyzes the domain name inside HTTPS packets.
 
 Typical errors you may encounter in a browser in case of SNI filtering:
