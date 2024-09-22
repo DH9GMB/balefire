@@ -21,6 +21,7 @@ Type: Service
 Probe locations:
 >
  - Russia
+
 Action type: One-shot check, aggregated data provider
 Probing methods:
 >
@@ -28,11 +29,13 @@ Probing methods:
  - HTTPS reachability test (any port)
  - TCP reachability open port test (any port)
  - ICMP Ping
+
 Testing on: Residential connection
 Useful for:
 >
  - Testing websites and web services
  - Testing IP-level censorship
+
 Skill required: Available for everyone
 Price: Free
 
@@ -51,16 +54,19 @@ Probe locations:
  - Ukraine
  - Kazakhstan
  - Belarus
+
 Action type: One-shot check
 Probing methods:
 >
  - HTTP reachability test (any port)
  - HTTPS reachability test (any port)
+
 Testing on: Datacenter connections
 Useful for:
 >
  - Testing websites and web services
  - Testing IP-level censorship
+
 Skill required: Available for everyone
 Price: Free
 
@@ -79,6 +85,7 @@ Probe locations:
  - UAE
  - Turkey
  - Iran
+
 Action type: One-shot check
 Probing methods:
 >
@@ -87,12 +94,14 @@ Probing methods:
  - ICMP Ping
  - UDP port check (any port, with an empty UDP packet)
  - DNS resolution (All A and AAAA records, PTR)
+
 Testing on: Datacenter connections
 Useful for:
 >
  - Testing websites and web services
  - Testing IP-level censorship
  - Testing DNS spoofing
+
 Skill required: Available for everyone
 Price: Free
 
@@ -109,6 +118,7 @@ Probe locations:
  - Iran
  - Saudi Arabia
  - China (many locations and operators)
+
 Action type: One-shot check
 Probing methods:
 >
@@ -116,10 +126,12 @@ Probing methods:
  - ICMP Ping
  - DNS resolution (All A and AAAA records, PTR)
  - Traceroute
+
 Testing on: Datacenter connections
 Useful for:
 >
  - Testing IP-level censorship
  - Testing DNS spoofing
+
 Skill required: Available for everyone
 Price: Free
