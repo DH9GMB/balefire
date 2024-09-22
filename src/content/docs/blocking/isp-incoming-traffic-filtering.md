@@ -1,6 +1,6 @@
 ---
-title: ISP Inner Filtering
-description: 'Learn About ISP Inner Filtering.'
+title: ISP Incoming Traffic Filtering
+description: 'Learn About ISP Incoming Traffic Filtering.'
 posted: 2024-09-21T21:00:00.000Z
 ---
 
