@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import starlightLinksValidator from "starlight-links-validator";
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,6 +9,12 @@ export default defineConfig({
   base: "/balefire/",
   integrations: [
     starlight({
+      plugins: [
+        starlightLinksValidator({
+          errorOnFallbackPages: false,
+          errorOnRelativeLinks: false,
+        }),
+      ],
       title: "Balefire",
       logo: {
         src: "./src/assets/logo.svg",
