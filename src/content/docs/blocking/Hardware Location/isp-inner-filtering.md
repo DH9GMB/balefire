@@ -18,5 +18,6 @@ posted: 2024-09-21T21:00:00.000Z
 - **Maintain Control**: Helps governments or authorities maintain control over the information flow.
 
 ISP Inner Filtering is a core component of how internet censorship is implemented, restricting or blocking access at the network level.
+
 ### Monitoring Tools
 WIP

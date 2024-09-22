@@ -21,8 +21,8 @@ DNS spoofing is a subtype of DNS hijacking, in which ISP applies hijacking to an
 This type of block could be detected by many censorship checking software and services, such as:
 >
  - [GlobalCheck](/balefire/censorship/services/globalcheck/)
- - [RIPE Atlas]()
- - [OONI Probe]()
+ - [RIPE Atlas](/balefire/censorship/services/ripe-atlas/)
+ - [OONI Probe](/balefire/censorship/toolkits/ooni/)
 
 As well as manually:
 >

@@ -13,9 +13,9 @@ IP redirection is a similar method which rewrites all the data towards website I
 
 This type of block could be detected by many censorship checking software and services, such as:
 >
- - GlobalCheck
- - RIPE Atlas
- - OONI Probe
+ - [GlobalCheck](/balefire/censorship/services/globalcheck/)
+ - [RIPE Atlas](/balefire/censorship/services/ripe-atlas/)
+ - [OONI Probe](/balefire/censorship/toolkits/ooni/)
 
 As well as manually:
 >
