@@ -14,11 +14,13 @@ The service is unique due to usage of residential Internet connections and cellu
 
 ### Details
 Type: Service
+
 Probe locations:
 >
  - Russia
 
 Action type: One-shot check, aggregated data provider
+
 Probing methods:
 >
  - HTTP reachability test (any port)
@@ -27,12 +29,14 @@ Probing methods:
  - ICMP Ping
 
 Testing on: Residential connection
+
 Useful for:
 >
  - Testing websites and web services
  - Testing IP-level censorship
 
 Skill required: Available for everyone
+
 Price: Free
 
 ## Ping-Admin
@@ -44,6 +48,7 @@ The service has a wide variety of nodes in many regions in Russia and CIS countr
 
 ### Details
 Type: Service
+
 Probe locations:
 >
  - Russia
@@ -52,18 +57,21 @@ Probe locations:
  - Belarus
 
 Action type: One-shot check
+
 Probing methods:
 >
  - HTTP reachability test (any port)
  - HTTPS reachability test (any port)
 
 Testing on: Datacenter connections
+
 Useful for:
 >
  - Testing websites and web services
  - Testing IP-level censorship
 
 Skill required: Available for everyone
+
 Price: Free
 
 ## Check-Host
@@ -74,6 +82,7 @@ Check-host.net provides a wide range of web service availability tests, with the
 
 ### Details
 Type: Service
+
 Probe locations:
 >
  - Russia
@@ -83,6 +92,7 @@ Probe locations:
  - Iran
 
 Action type: One-shot check
+
 Probing methods:
 >
  - HTTP reachability test (any port)
@@ -92,6 +102,7 @@ Probing methods:
  - DNS resolution (All A and AAAA records, PTR)
 
 Testing on: Datacenter connections
+
 Useful for:
 >
  - Testing websites and web services
@@ -99,6 +110,7 @@ Useful for:
  - Testing DNS spoofing
 
 Skill required: Available for everyone
+
 Price: Free
 
 ## Ping.pe
@@ -109,6 +121,7 @@ Network test utilities focused on testing web services from within China. The se
 
 ### Details
 Type: Service
+
 Probe locations:
 >
  - Iran
@@ -116,6 +129,7 @@ Probe locations:
  - China (many locations and operators)
 
 Action type: One-shot check
+
 Probing methods:
 >
  - TCP open port check (any port)
@@ -124,6 +138,7 @@ Probing methods:
  - Traceroute
 
 Testing on: Datacenter connections
+
 Useful for:
 >
  - Testing IP-level censorship
