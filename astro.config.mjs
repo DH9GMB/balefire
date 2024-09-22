@@ -4,7 +4,7 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://github.com/DH9GMB/balefire",
+  site: "https://dh9gmb.github.io/balefire",
   integrations: [
     starlight({
       title: "Balefire",
