@@ -42,7 +42,7 @@ posted: 2024-09-21T21:00:00.000Z
 - **Selective Blocking**: Can precisely target and filter specific types of traffic.
 - **Control and Surveillance**: Used for both content control and monitoring purposes.
 
-By examining data at a granular level, DPI protocol filtering provides a powerful tool for internet censorship, enabling precise control over what data is allowed to pass through a network and what is blocked or monitored.  
+By examining data at a granular level, DPI protocol filtering provides a powerful tool for internet censorship, enabling precise control over what data is allowed to pass through a network and what is blocked or monitored.
 
 ### Monitoring Tools
 WIP
