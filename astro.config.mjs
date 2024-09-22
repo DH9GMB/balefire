@@ -22,8 +22,12 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "Censorship detection",
+          label: "Detection tools",
           autogenerate: { directory: "censorship" },
+        },
+        {
+          label: "Blocking types",
+          autogenerate: { directory: "blocking" },
         },
       ],
     }),
