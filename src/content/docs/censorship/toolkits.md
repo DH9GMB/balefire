@@ -13,6 +13,7 @@ analyze-cp is a software toolbox, created by the [Censored Planet team](https://
 
 ### Details
 Type: Software toolkit
+
 Probe locations:
 >
  - Russia
@@ -20,13 +21,16 @@ Probe locations:
  - UAE
  - Turkey
  - Iran
+
 Action type: One-shot check, aggregator data provider
+
 Probing methods:
 >
  - Application-layer inference measuring
  - DNS inference detection
 
 Testing on: Datacenter connections
+
 Useful for:
 >
  - Testing websites and web services
@@ -34,6 +38,7 @@ Useful for:
  - Testing DNS spoofing
 
 Skill required: Minor software configuring skills expected
+
 Price: Payments for Data. [Google Storage Pricing](https://cloud.google.com/storage/pricing) is applied to the raw data hosted by Censored Planet.
 
 ## OONI Probe
@@ -44,14 +49,24 @@ Software toolkit using for measure the blocking of websites, instant messaging a
 
 ### Details
 Type: Software toolkit
-Probe location
+
+Probe location:
+>
+ - Russia
+ - Ukraine (+ Starlink)
+ - UAE
+ - Turkey
+ - Iran
+
 Action type:  One-shot check, aggregator data provider
+
 Probing methods:
 >
 - Application-layer inference measuring
 - DNS inference detection
 
 Testing on: Datacenter connections
+
 Useful for:
 >
  - Testing websites and web services
@@ -61,6 +76,7 @@ Useful for:
  - Detects the presence of network interference technologies and middleboxes
 
 Skill required: Minor software configuring skills expected
+
 Price: Free
 
 ### Quick start
