@@ -29,9 +29,9 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "/src/content/posts",
+        name: "docs",
+        label: "Docs",
+        path: "/src/content/docs",
         fields: [
           {
             type: "string",
@@ -39,6 +39,11 @@ export default defineConfig({
             label: "Title",
             isTitle: true,
             required: true,
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
           },
           {
             type: "datetime",
