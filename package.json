@@ -3,12 +3,12 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "tinacms dev -c \"astro dev\"",
+    "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "tina": "TINA_PUBLIC_IS_LOCAL=false concurrently \"tinacms dev\" \"tsc --watch\" \"nodemon dist/app.js\" \"nodemon --watch site eleventy --input='site'\""
+    "tina": "tinacms dev -c \"astro dev\""
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",
