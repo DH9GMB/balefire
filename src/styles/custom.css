@@ -27,3 +27,9 @@
 	--sl-color-gray-7: #f6f6f8;
 	--sl-color-black: #ffffff;
 }
+
+.link-preview {
+	--link-preview-corners: 0.5em;
+	--link-preview-padding-inline: 0.75rem;
+	background-color: var(--sl-color-gray-6);
+  }
