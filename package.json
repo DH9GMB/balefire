@@ -8,7 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "tina": "tinacms dev -c \"astro dev\""
+    "tina": "TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"astro dev\""
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",
@@ -22,7 +22,7 @@
     "sharp": "^0.32.5",
     "starlight-links-validator": "^0.12.1",
     "tinacms": "^2.2.4",
-    "tinacms-authjs": "^5.0.4",
+    "tinacms-authjs": "^5.0.5",
     "tinacms-gitprovider-github": "^2.0.2",
     "typescript": "^5.6.2"
   },
