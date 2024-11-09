@@ -11,7 +11,6 @@ export default defineConfig({
     (await import("@playform/compress")).default(),
     (await import("@playform/inline")).default({}),
     starlight({
-      favicon: "./src/assets/favicon.svg",
       plugins: [
         starlightLinksValidator({
           errorOnFallbackPages: false,
