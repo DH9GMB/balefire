@@ -22,8 +22,8 @@ Action type: One-shot check
 
 Probing methods:
 >
-- HTTP Reachability Test: Checks if a website is accessible over HTTP on any specified port.
-- HTTPS Reachability Test: Verifies if the website is accessible over HTTPS on any specified port.
+- **HTTP Reachability Test**: Checks if a website is accessible over HTTP on any specified port.
+- **HTTPS Reachability Test**: Verifies if the website is accessible over HTTPS on any specified port.
 
 Testing on: Datacenter connections
 
