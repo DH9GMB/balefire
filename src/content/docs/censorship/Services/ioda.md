@@ -23,9 +23,9 @@ Action type: One-shot check, Aggregated Data Provider
 
 Probing methods:
 >
-- Global Internet Routing (BGP): Tracks changes in the global Border Gateway Protocol (BGP) to detect disruptions in routing announcements, a common sign of outages or intentional filtering.
-- Internet Background Radiation (IBR): Monitors unsolicited traffic from unreachable IP addresses to infer potential outages.
-- ICMP Ping: Conducts latency and connectivity checks to measure accessibility and identify unreachable networks.
+- **Global Internet Routing (BGP)**: Tracks changes in the global Border Gateway Protocol (BGP) to detect disruptions in routing announcements, a common sign of outages or intentional filtering.
+- **Internet Background Radiation (IBR)**: Monitors unsolicited traffic from unreachable IP addresses to infer potential outages.
+- **ICMP Ping**: Conducts latency and connectivity checks to measure accessibility and identify unreachable networks.
 
 Testing on: Datacenter connections, Residential connection
 
