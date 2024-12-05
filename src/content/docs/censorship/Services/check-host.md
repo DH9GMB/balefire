@@ -4,7 +4,7 @@ description: 'Test website, web service, domain name or IP address.'
 posted: 2024-09-21T21:00:00.000Z
 ---
 ### Overview
-Check-host.net provides a wide range of web service availability tests, with the probes hosted in countries with internet censorship.
+**Check-host.net** offers a comprehensive set of web service availability tests, allowing users to analyze website and service reachability across different regions, including countries with active internet censorship. This makes it a valuable tool for assessing network restrictions and testing connectivity in real-world scenarios.
 
 [Learn more](https://check-host.net/)
 
@@ -23,11 +23,11 @@ Action type: One-shot check
 
 Probing methods:
 >
- - HTTP reachability test (any port)
- - HTTPS reachability test (any port)
- - ICMP Ping
- - UDP port check (any port, with an empty UDP packet)
- - DNS resolution (All A and AAAA records, PTR)
+- **HTTP Reachability Test**: Checks availability on any specified port.
+- **HTTPS Reachability Test**: Verifies secure connections on any port.
+- **ICMP Ping**: Tests basic connectivity and latency to the target.
+- **UDP Port Check**: Sends an empty UDP packet to a specified port to test reachability.
+- **DNS Resolution**: Resolves domain names and retrieves all **A** (IPv4), **AAAA** (IPv6), and **PTR** (reverse DNS) records.
 
 Testing on: Datacenter connections
 
