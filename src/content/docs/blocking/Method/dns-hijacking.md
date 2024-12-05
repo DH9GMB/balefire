@@ -3,20 +3,18 @@ title: DNS Hijacking
 description: 'Learn About DNS Hijacking.'
 posted: 2024-09-21T21:00:00.000Z
 ---
-DNS spoofing is one of the simple and affordable methods of restricting website access which is easy to circumvent.
-The IP address of the website is intentionally replaced with a different one by ISP, to prevent the user from connecting to the real address and accessing the website.
+### DNS spoofing in Internet Censorship
+**DNS spoofing** is one of the simple and affordable methods of restricting website access which is relatively easy to circumvent. The IP address of the website is intentionally replaced with a different one by the ISP to prevent the user from connecting to the real address and accessing the website.  
 
-Typical errors you may encounter in a browser in case of DNS hijacking:
->
- - ERR_NAME_NOT_RESOLVED
- - ERR_DNS_TIMED_OUT
- - (sometimes) HTTPS certificate error
- - (sometimes) ERR_CONNECTION_REFUSED
+Typical errors you may encounter in a browser in case of DNS hijacking include:  
+- **ERR_NAME_NOT_RESOLVED**: Indicates that the domain name could not be resolved to an IP address.  
+- **ERR_DNS_TIMED_OUT**: Suggests that the DNS server is unresponsive or unreachable.  
+- (sometimes) **HTTPS certificate error**: Occurs when the redirected page doesn’t match the certificate of the expected site.  
+- (sometimes) **ERR_CONNECTION_REFUSED**: Implies that the user was redirected to an inaccessible or non-functional server.  
 
-The IP is usually changed to the block page hosted by ISP, which tells the user that the website is blocked. That’s why this type of blocking could be usually clearly distinguished from any other.
+In most cases, the IP address is changed to point to a block page hosted by the ISP, which informs the user that the website is blocked. This makes DNS hijacking relatively easy to identify compared to other methods of censorship, such as deep packet inspection or IP blocking.  
 
-DNS hijacking is usually applied only for the DNS resolvers provided by the ISP.
-DNS spoofing is a subtype of DNS hijacking, in which ISP applies hijacking to any other DNS resolver (not only hosted by ISP itself).
+DNS hijacking typically targets DNS resolvers provided by the ISP itself. However, **DNS spoofing**, a more intrusive subtype of DNS hijacking, occurs when the ISP manipulates DNS responses regardless of the resolver being used, including third-party resolvers such as Google Public DNS or Cloudflare.  
 
 This type of block could be detected by many censorship checking software and services, such as:
 >
@@ -29,13 +27,13 @@ As well as manually:
  - Go to [Google DNS](https://dns.google/)
  - Type in the domain name of the website you have trouble accessing
  - Open “Command Prompt” (Windows) / Terminal (Linux, macOS)
- - Type “nslookup domain.name.of.the.website.com”
+ - Type `nslookup example.com`
  - Check the IP address(es) returned by nslookup and by dns.google web service
 
 Results interpretation:
 >
  - If the IP addresses are different, this could be the case of DNS hijacking.
- - If you see the informational block page when accessing the website, try to open IP address you got with “nslookup” with the browser, in form of http://ip.address.here
+ - If you see the informational block page when accessing the website, try to open IP address you got with “nslookup” with the browser, in form of `http://123.456.67.8`
  - If you see the same block page, this is DNS hijacking.
 
 Circumvention solutions:
@@ -46,3 +44,9 @@ Either:
  - Enable DNS-over-HTTPS in the browser
  - Enable Private DNS on Android, Private Relay on iOS
  - Use DNS-over-HTTPS
+
+Regions:
+- Russia
+- Kazakhstan
+- Turkey
+- Iran
