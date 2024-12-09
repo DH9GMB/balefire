@@ -28,7 +28,7 @@ Results interpretation:
 Circumvention solutions:
 >
  - VPN/Proxy
- - (sometimes) DPI circumvention software: GoodbyeDPI, Zapret, ByeDPI, SpoofDPI, PowerTunnel
+ - (sometimes) DPI circumvention software: [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI), [zapret](https://github.com/bol-van/zapret), [ByeDPI](https://github.com/hufrea/byedpi), [SpoofDPI](https://github.com/xvzc/SpoofDPI), [PowerTunnel](https://github.com/krlvm/PowerTunnel)
 
 Regions:
 - Russia
