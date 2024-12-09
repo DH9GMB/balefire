@@ -40,10 +40,9 @@ Circumvention solutions:
 
 Either:
 >
- - Change DNS configuration to use third-party resolver, such as Google DNS or Quad9
- - Enable DNS-over-HTTPS in the browser
- - Enable Private DNS on Android, Private Relay on iOS
- - Use DNS-over-HTTPS
+ - Change DNS configuration to use third-party resolver, such as [Quad9](https://www.quad9.net/) or [another](https://en.wikipedia.org/wiki/Public_recursive_name_server#Notable_public_DNS_service_operators)
+ - Enable DNS-over-HTTPS in the browser or on a device 
+ - Enable Private DNS on Android/Private Relay on iOS
 
 Regions:
 - Russia
