@@ -4,7 +4,7 @@ description: 'Test website, web service, domain name or IP address.'
 posted: 2024-09-21T21:00:00.000Z
 ---
 ### Overview  
-Network test utilities focused on testing web services from within China. The service provides 10 probes located in different China regions and datacenters.
+**Ping.pe** is a network testing service designed to specifically assess web services' accessibility from within China. With 10 probes located across various regions and datacenters in China, it provides valuable insights into how websites and services perform in regions with strict internet regulations and censorship.
 
 [Learn more](https://ping.pe)
 
@@ -21,10 +21,10 @@ Action type: One-shot check
 
 Probing methods:
 >
- - TCP open port check (any port)
- - ICMP Ping
- - DNS resolution (All A and AAAA records, PTR)
- - Traceroute
+- **TCP Open Port Check**: Verifies whether a specified TCP port is open and accessible on the server.
+- **ICMP Ping**: Tests basic connectivity and measures latency to the target server.
+- **DNS Resolution**: Resolves domain names and retrieves all A (IPv4), AAAA (IPv6), and PTR (reverse DNS) records for the domain.
+- **Traceroute**: Analyzes the path that packets take to reach the target server, helping identify routing issues and blockages.
 
 Testing on: Datacenter connections
 

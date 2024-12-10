@@ -4,7 +4,7 @@ description: Software for measuring censorship
 posted: 2024-09-21T21:00:00.000Z
 ---
 ### Overview
-TraceVis is a research project whose main goal is to find middleboxes. Where a packet is tampered with or blocked. This tool also has other features such as downloading and visualizing traceroute data from RIPE Atlas probes.
+**TraceVis** is a research-focused software toolkit designed to identify network middleboxes that tamper with or block packets. It also offers functionality for downloading and visualizing traceroute data from RIPE Atlas probes, making it a powerful tool for analyzing network paths and interference.
 
 [Learn more](https://github.com/wikicensorship/tracevis)
 
@@ -20,7 +20,7 @@ Action type: One-shot check
 
 Probing methods:
 >
- - Traceroute
+ - **Traceroute Analysis**: Maps the network path to a target destination, highlighting where packets are being blocked or altered.
 
 Testing on: Datacenter connections
 
