@@ -3,7 +3,10 @@ title: DPI Application Filtering
 description: 'Learn About DPI Application Filtering.'
 posted: 2024-09-21T21:00:00.000Z
 ---
-Deep Packet Inspection hardware is capable of detecting distinct particularities of certain software, its network or encryption libraries, and block it. This could lead to website or service access only from the browser but not from the app, or vice versa.
+### Deep Packet Inspection hardware in Internet Censorship
+**Deep Packet Inspection (DPI) hardware** is a sophisticated tool capable of analyzing data packets transmitted over a network in real time. It can detect distinct characteristics of specific software, its networking protocols, or encryption libraries, and selectively block or throttle access. For example, this could result in a situation where a website or service is accessible via a browser but not through a dedicated app, or vice versa, depending on the detected traffic pattern or headers.
+
+This type of blocking is particularly challenging to detect and analyze due to its granular nature. DPI operates at the application layer, examining not just the metadata (like IP addresses and ports) but also the content and patterns within the data payloads. Its implementation can vary widely, making standard analysis tools insufficient for a comprehensive diagnosis.
 
 This kind of block is difficult to detect and analyze. There’s no fully automatic utilities for such tests.
 
@@ -25,4 +28,9 @@ General manual steps are as follows:
 Circumvention solutions:
 >
  - VPN/Proxy
- - (sometimes) DPI circumvention software: GoodbyeDPI, zapret, ByeDPI, SpoofDPI, PowerTunnel
+ - (sometimes) DPI circumvention software: [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI), [zapret](https://github.com/bol-van/zapret), [ByeDPI](https://github.com/hufrea/byedpi), [SpoofDPI](https://github.com/xvzc/SpoofDPI), [PowerTunnel](https://github.com/krlvm/PowerTunnel)
+
+Regions: 
+- Russia
+- China
+- Turkmenistan 

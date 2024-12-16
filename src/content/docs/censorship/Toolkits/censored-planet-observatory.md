@@ -4,8 +4,7 @@ description: Software for measuring censorship
 posted: 2024-09-21T21:00:00.000Z
 ---
 ### Overview
-
-analyze-cp is a software toolbox, created by the [Censored Planet team](https://data.censoredplanet.org/), which includes quack-v1, hyperquack-v1 to application-layer interference measuring and satellite-v1 to detect DNS interference.
+**analyze-cp** is a comprehensive software toolkit developed by the [Censored Planet team](https://data.censoredplanet.org/). The toolbox includes modules like quack-v1 and hyperquack-v1 for measuring application-layer interference, as well as satellite-v1 for detecting DNS interference, making it a powerful resource for censorship research and analysis.
 
 [Learn more](https://github.com/censoredplanet/censoredplanet)
 
