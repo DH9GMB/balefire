@@ -18,6 +18,16 @@ export default defineConfig({
         }),
       ],
       title: "Balefire",
+      defaultLocale: "en",
+      locales: {
+        en: {
+          label: "English",
+        },
+        "ru-ru": {
+          label: "Русский",
+          lang: "ru-RU",
+        },
+      },
       logo: {
         src: "./src/assets/logo.svg",
         replacesTitle: true,
