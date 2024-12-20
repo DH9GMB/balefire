@@ -1,0 +1,96 @@
+---
+title: Ваш гид по обнаружению интернет-цензуры
+description: Узнайте, как обнаружить интернет-цензуру в вашей стране.
+template: splash
+tableOfContents: false
+hero:
+  tagline: Познайте своего врага, боритесь за свою свободу
+  image:
+    file: ../../../assets/fire.webp
+---
+
+import { LinkCard, CardGrid } from "@astrojs/starlight/components";
+
+## По расположению оборудования
+
+<CardGrid>
+  <LinkCard
+    title="Фильтрация входящего трафика провайдером"
+    href="blocking/hardware-location/isp-incoming-traffic-filtering/"
+    description="Фильтрация контента внутри сети провайдера"
+  />
+  <LinkCard
+    title="Внутренняя фильтрация провайдера"
+    href="blocking/hardware-location/isp-inner-filtering/"
+    description="Фильтрация контента во внутренней сети провайдера"
+  />
+  <LinkCard
+    title="Фильтрация на государственном уровне"
+    href="blocking/hardware-location/state-level-filtering/"
+    description="Государственная фильтрация трафика на национальном уровне"
+  />
+  <LinkCard
+    title="Фильтрация транзитным провайдером"
+    href="blocking/hardware-location/transit-isp-filtering/"
+    description="Фильтрация трафика вышестоящими провайдерами, влияющая на множество провайдеров"
+  />
+</CardGrid>
+
+## По методу
+
+<CardGrid>
+  <LinkCard
+    title="DNS-подмена"
+    href="blocking/method/dns-hijacking/"
+    description="Перенаправление DNS-запросов на неверные IP-адреса"
+  />
+  <LinkCard
+    title="DPI-фильтрация приложений"
+    href="blocking/method/dpi-application-filtering/"
+    description="Блокировка определенных приложений путем анализа паттернов трафика"
+  />
+  <LinkCard
+    title="DPI-фильтрация протоколов"
+    href="blocking/method/dpi-protocol-filtering/"
+    description="Блокировка конкретных протоколов с помощью глубокого анализа пакетов"
+  />
+  <LinkCard
+    title="Фильтрация HTTPS SNI"
+    href="blocking/method/https-sni-filtering/"
+    description="Блокировка доменов на основе SNI в TLS-рукопожатии"
+  />
+  <LinkCard
+    title="IP-блокировка/перенаправление"
+    href="blocking/method/ip-blackhole/"
+    description="Блокировка трафика к определенным IP, делая их недоступными"
+  />
+  <LinkCard
+    title="Замедление"
+    href="blocking/method/throttling/"
+    description="Намеренное замедление скорости интернета"
+  />
+</CardGrid>
+
+## Сервисы
+
+<CardGrid>
+  <LinkCard title="Check Host" href="censorship/services/check-host/" />
+  <LinkCard title="GlobalCheck" href="censorship/services/globalcheck/" />
+  <LinkCard title="Ioda" href="censorship/services/ioda/" />
+  <LinkCard title="Ping Admin" href="censorship/services/ping-admin/" />
+  <LinkCard title="Ping.pe" href="censorship/services/ping-pe/" />
+  <LinkCard title="Ripe Atlas" href="censorship/services/ripe-atlas/" />
+  <LinkCard title="Shutdown Watch" href="censorship/services/shutdown-watch/" />
+</CardGrid>
+
+## Инструменты
+
+<CardGrid>
+  <LinkCard
+    title="Censored Planet Observatory"
+    href="censorship/toolkits/censored-planet-observatory/"
+  />
+  <LinkCard title="OONI" href="censorship/toolkits/ooni/" />
+  <LinkCard title="Outline SDK" href="censorship/toolkits/outline-sdk/" />
+  <LinkCard title="TraceVis" href="censorship/toolkits/tracevis/" />
+</CardGrid>
