@@ -18,8 +18,8 @@ Typical errors you may encounter in a browser in case of SNI filtering:
  - (sometimes) **HTTPS certificate error**: his error points to issues with the HTTPS certificate, such as expiration, an untrusted certificate authority, or a mismatch between the domain and the certificate. It can also occur due to traffic interception altering the certificate.
 
 This type of block could be detected by some of censorship checking software (see SOFTWARE TOOLKITS), such as:
- - [OONI Probe](/balefire/censorship/toolkits/ooni/)
- - [RIPE Atlas](/balefire/censorship/services/ripe-atlas/) with 2 measurements: one with the original domain name and another one with the different, connecting the the same IP address
+ - [OONI Probe](/balefire/en/censorship/toolkits/ooni/)
+ - [RIPE Atlas](/balefire/en/censorship/services/ripe-atlas/) with 2 measurements: one with the original domain name and another one with the different, connecting the the same IP address
  - [blockcheck.sh](https://github.com/bol-van/zapret/blob/master/blockcheck.sh) script from “zapret” application
 
 As well as manually, by connecting to the same website using different domain name in HTTPS request:
