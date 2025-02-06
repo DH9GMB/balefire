@@ -6,7 +6,7 @@ import starlightLinksValidator from "starlight-links-validator";
 // https://astro.build/config
 export default defineConfig({
   site: "https://dh9gmb.github.io/",
-  base: "/balefire/en",
+  base: "/balefire",
   integrations: [
     (await import("@playform/compress")).default(),
     (await import("@playform/inline")).default({}),
