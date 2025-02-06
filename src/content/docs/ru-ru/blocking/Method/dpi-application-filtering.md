@@ -12,7 +12,7 @@ posted: 2024-09-21T21:00:00.000Z
 
 Тестирование фильтрации приложений поддерживается в:
 >
- - [OONI Probe](/balefire/en/censorship/toolkits/ooni/)
+ - [OONI Probe](/balefire/ru-ru/censorship/toolkits/ooni/)
 
 Общие шаги для ручного анализа:
 >

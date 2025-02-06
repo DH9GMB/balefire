@@ -18,9 +18,9 @@ posted: 2024-09-21T21:00:00.000Z
 
 Этот метод блокировки можно обнаружить с помощью различных программ и сервисов для проверки цензуры, таких как:
 >
- - [GlobalCheck](/balefire/en/censorship/services/globalcheck/)
- - [RIPE Atlas](/balefire/en/censorship/services/ripe-atlas/)
- - [OONI Probe](/balefire/en/censorship/toolkits/ooni/)
+ - [GlobalCheck](/balefire/ru-ru/censorship/services/globalcheck/)
+ - [RIPE Atlas](/balefire/ru-ru/censorship/services/ripe-atlas/)
+ - [OONI Probe](/balefire/ru-ru/censorship/toolkits/ooni/)
 
 А также вручную:
 >
